@@ -1,6 +1,6 @@
 const express = require('express')
 const app = express()
-const { sequelize } = require('./app/Models')
+const {sequelize} = require('./app/Models')
 
 // Settings
 app.set('PORT', process.env.PORT || 3000)
